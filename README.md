@@ -192,3 +192,25 @@ The plotting module generates figures for error comparison, runtime analysis, co
 - Selected figures or small summary files may be placed under `docs/` if needed.
 - For SPJA queries, contribution statistics report `isq_proxy`, not the full theoretical ISQ.
 - The optional ShiftedInverse module is a lightweight approximation only.
+
+## Selected Results
+
+Selected experiment summaries and figures are included under:
+
+```text
+docs/results/
+docs/figures/
+```
+
+These files are small representative outputs used for reporting and quick inspection. Full generated outputs under `results/` and `figures/` are ignored by Git by default.
+
+Included examples:
+
+- `docs/results/sf0.01_real_results_summary.csv`
+- `docs/results/sf0.1_real_results_summary.csv`
+- `docs/results/sf0.01_real_contribution_stats.csv`
+- `docs/results/sf0.1_real_contribution_stats.csv`
+- `docs/figures/error_bar_by_query_mechanism_logy.png`
+- `docs/figures/error_bar_without_directlaplace.png`
+- `docs/figures/runtime_vs_error_pareto.png`
+- `docs/figures/tau_sweep_with_r2t_marker.png`
