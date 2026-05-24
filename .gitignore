@@ -33,3 +33,6 @@ figures/
 *.log
 *.tmp
 *.bak
+
+# Archives
+*.zip
