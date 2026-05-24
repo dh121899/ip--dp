@@ -1,4 +1,4 @@
-# R2T-Based Differential Privacy Mechanisms for TPC-H Query Processing
+﻿# R2T-Based Differential Privacy Mechanisms for TPC-H Query Processing
 
 This repository implements and evaluates R2T-based differential privacy mechanisms on TPC-H-derived relational queries with foreign-key constraints.
 
@@ -53,8 +53,11 @@ tests/
 
 data/
   README.md
-```
 
+docs/
+  results/        selected result summary CSV files
+  figures/        selected report figures
+```
 ## Data
 
 Real TPC-H `.tbl` files are **not included** in this repository.
@@ -214,3 +217,4 @@ Included examples:
 - `docs/figures/error_bar_without_directlaplace.png`
 - `docs/figures/runtime_vs_error_pareto.png`
 - `docs/figures/tau_sweep_with_r2t_marker.png`
+
