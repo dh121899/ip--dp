@@ -26,8 +26,8 @@ data/cache/
 *.duckdb
 
 # Generated experiment outputs
-results/
-figures/
+/results/
+/figures/
 
 # Logs and temporary files
 *.log
