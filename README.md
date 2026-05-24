@@ -205,7 +205,7 @@ docs/results/
 docs/figures/
 ```
 
-These files are small representative outputs used for reporting and quick inspection. Full generated outputs under `results/` and `figures/` are ignored by Git by default.
+These files are small representative outputs used for quick inspection.
 
 Included examples:
 
@@ -217,4 +217,5 @@ Included examples:
 - `docs/figures/error_bar_without_directlaplace.png`
 - `docs/figures/runtime_vs_error_pareto.png`
 - `docs/figures/tau_sweep_with_r2t_marker.png`
+
 
