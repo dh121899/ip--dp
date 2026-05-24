@@ -1,0 +1,9 @@
+numpy
+pandas
+duckdb
+scipy
+matplotlib
+pytest
+ruff
+black
+
